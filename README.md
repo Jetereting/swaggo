@@ -22,3 +22,7 @@ The swagger file accords to the [Swagger Spec](https://github.com/OAI/OpenAPI-Sp
 go get -u -v github.com/teambition/swaggo
 ```
 
+### use
+```shell
+swaggo -s ./internal/app/smartpark/routers/wx/swagger.go -p . -o ./internal/app/smartpark/swagger/
+```
