@@ -5,7 +5,7 @@ Swaggo - `v0.3.0`
 ### 修改内容：
 1. 项目本身支持 go mod
 2. 支持使用本工具的项目是 go mod 项目，不用再放到 go path 下了
-3. 个性化支持了分页响应，
+3. 个性化支持了分页响应，例如 // @Success 200 []schema.DeviceQRCodeResult "{list:列表数据,pagination:{current:页索引,pageSize:页大小,total:总数量}}" 根据描述里含有 pagination 自动转化为分页结构体 
 
 
 ## About
