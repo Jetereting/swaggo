@@ -19,7 +19,7 @@ The swagger file accords to the [Swagger Spec](https://github.com/OAI/OpenAPI-Sp
 ### Install
 
 ```shell
-go get -u -v github.com/Jetereting/swaggo
+go install github.com/Jetereting/swaggo@v0.3.1
 ```
 
 ### use
