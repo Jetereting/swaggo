@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"swaggo/swagger"
+	"github.com/Jetereting/swaggo/swagger"
 )
 
 type pkg struct {

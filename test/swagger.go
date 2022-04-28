@@ -15,5 +15,5 @@
 package main
 
 import (
-	_ "swaggo/test/pkg/api"
+	_ "github.com/Jetereting/swaggo/test/pkg/api"
 )

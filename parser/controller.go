@@ -4,7 +4,7 @@ import (
 	"go/ast"
 	"strings"
 
-	"swaggo/swagger"
+	"github.com/Jetereting/swaggo/swagger"
 )
 
 type controller struct {

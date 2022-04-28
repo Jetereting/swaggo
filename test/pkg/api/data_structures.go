@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	"swaggo/test/pkg/api/subpackage"
+	"github.com/Jetereting/swaggo/test/pkg/api/subpackage"
 )
 
 type TypeString string

@@ -2,12 +2,12 @@ package api
 
 import (
 	"fmt"
+	"github.com/Jetereting/swaggo/test/pkg/api/subpackage_dot"
 	_ "os"
-	"swaggo/test/pkg/api/subpackage_dot"
 
+	"github.com/Jetereting/swaggo/test/pkg/api/subpackage"
+	sub "github.com/Jetereting/swaggo/test/pkg/api/subpackage_alias"
 	"github.com/gocraft/web"
-	"swaggo/test/pkg/api/subpackage"
-	sub "swaggo/test/pkg/api/subpackage_alias"
 )
 
 var (

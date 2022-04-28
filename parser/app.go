@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/Jetereting/swaggo/swagger"
 	yaml "gopkg.in/yaml.v2"
-	"swaggo/swagger"
 )
 
 var (

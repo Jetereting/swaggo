@@ -4,12 +4,12 @@ import (
 	"log"
 	"os"
 
+	"github.com/Jetereting/swaggo/parser"
 	"github.com/urfave/cli"
-	"swaggo/parser"
 )
 
 const (
-	version = "v0.3.2"
+	version = "v1.0.0"
 )
 
 func main() {

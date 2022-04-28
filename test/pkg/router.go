@@ -3,8 +3,8 @@ package pkg
 import (
 	"encoding/json"
 
+	"github.com/Jetereting/swaggo/test/pkg/api"
 	"github.com/gocraft/web"
-	"swaggo/test/pkg/api"
 )
 
 func New() *web.Router {

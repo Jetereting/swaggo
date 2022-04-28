@@ -5,7 +5,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"swaggo/swagger"
+	"github.com/Jetereting/swaggo/swagger"
 )
 
 // resource api resource

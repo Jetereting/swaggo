@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"swaggo/test/pkg"
+	"github.com/Jetereting/swaggo/test/pkg"
 )
 
 func main() {

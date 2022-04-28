@@ -19,6 +19,7 @@ The swagger file accords to the [Swagger Spec](https://github.com/OAI/OpenAPI-Sp
 ### Install
 
 ```shell
+export GO111MODULE=on;
 go install github.com/Jetereting/swaggo@vlatest
 ```
 

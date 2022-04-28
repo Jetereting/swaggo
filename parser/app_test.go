@@ -3,9 +3,9 @@ package parser
 import (
 	"testing"
 
+	"github.com/Jetereting/swaggo/swagger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
-	"swaggo/swagger"
 )
 
 func TestErrorPath(t *testing.T) {
