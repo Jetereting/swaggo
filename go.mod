@@ -1,4 +1,4 @@
-module swaggo
+module github/Jetereting/swaggo
 
 go 1.17
 
