@@ -60,7 +60,7 @@ func Parse(projectPath, swaggerGo, output, t string, dev bool) (err error) {
 			paginationDef := "pagination_" + sc
 			paginationDefs = append(paginationDefs, paginationDef)
 			sw.Paths[k].Get.Responses["200"].Schema.Title = paginationDef
-			sw.Paths[k].Get.Responses["200"].Schema.Ref = "#/definitions/" + sc
+			sw.Paths[k].Get.Responses["200"].Schema.Ref = "#/definitions/" + paginationDef
 			sw.Paths[k].Get.Responses["200"].Schema.Type = "object"
 		}
 	}
