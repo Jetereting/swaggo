@@ -64,7 +64,28 @@ func Parse(projectPath, swaggerGo, output, t string, dev bool) (err error) {
 			sw.Paths[k].Get.Responses["200"].Schema.Type = "object"
 		}
 	}
-	// 2.添加定义
+	// 2.1添加分页定义
+	if _, ok := sw.Definitions["HTTPPagination"]; !ok {
+		sw.Definitions["HTTPPagination"] = &swagger.Schema{
+			Title: "HTTPPagination",
+			Type:  "object",
+			Properties: map[string]*swagger.Propertie{
+				"current": {
+					Format: "int32",
+					Type:   "integer",
+				},
+				"pageSize": {
+					Format: "int32",
+					Type:   "integer",
+				},
+				"total": {
+					Format: "int32",
+					Type:   "integer",
+				},
+			},
+		}
+	}
+	// 2.2添加定义
 	for _, v := range paginationDefs {
 		if _, ok := sw.Definitions[v]; !ok {
 			sw.Definitions[v] = &swagger.Schema{
