@@ -298,6 +298,13 @@ func parseTag(tagStr, buildin string) (name, desc string, def interface{}, requi
 		}
 		name = jsonTag[0]
 	}
+
+	// get from tag
+	fromTag := strings.Split(stag.Get("from"), ",")
+	if len(fromTag) != 0 {
+		name = fromTag[0]
+	}
+
 	// swaggo:"(required),(desc),(default)"
 	swaggoTag := stag.Get("swaggo")
 	tmp := strings.Split(swaggoTag, ",")
