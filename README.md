@@ -1,4 +1,4 @@
-Swaggo - `v0.3.0`
+Swaggo
 
 
 ### 项目修改自：github.com/teambition/swaggo
